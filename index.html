@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Weekly Coding Challenge #8 - Chat Interface</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="butoane">
+	<button onclick="Functie1(); setTimeout(Functie2, 2000) "id="buton1">Cat costa deplasarea</button>
+	<button onclick="Functie3(); setTimeout(Functie4, 2000) "id="button2">Cum fac o programare?</button>
+	
+</div>
+
+
+
+<div class="chat-container">
+	<ul class="chat">
+		<li class="message left" id="intrebare1">
+			<img class="logo" src="logo_client.png" alt="">
+			<p>Cat costa deplasarea?</p>
+			<img src="dots.gif" style="width: 50px" height="50px" id="dots">
+		
+		</li>
+		<li class="message right" id="mesaj1">
+			<img class="logo" src="logo_eu.jpg" alt="">
+			<p>Buna ziua, Deplasarea si constatarea costa 70 lei si nu se plateste in cazul reparatiei.</p>
+		
+		</li>
+		<li class="message left" id="intrebare3">
+			<img class="logo" src="logo_client.png" alt="">
+			<p>Cum fac o programare?</p>
+			<img src="dots.gif" style="width: 50px" height="50px" id="dots2">
+		</li>
+		<li class="message right"  id="mesaj4">
+			<img class="logo" src="logo_eu.jpg" alt="">
+			<p>Se poate face telefonic sau pe email.</p>
+			
+		</li>
+		<li class="message left">
+			<img class="logo" src="logo_client.png" alt="">
+			<p>ARE YOU KIDDING ME?</p>
+		</li>
+		<li class="message right">
+			<img class="logo" src="logo_eu.jpg" alt="">
+			<p>No, I'm Dad...</p>
+		</li>
+	</ul>
+	
+</div>
+
+<!-- partial -->
+<script src="script.js"></script>
+</body>
+</html>
