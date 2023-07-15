@@ -1,6 +1,6 @@
 let buton1 = document.getElementById("buton1");
 let buton2 = document.getElementById("buton2");
-
+//modificarea mea
 let intrebare1 = document.getElementById("intrebare1");
 let intrebare2 = document.getElementById("intrebare2");
 let intrebare3 = document.getElementById("intrebare3");
